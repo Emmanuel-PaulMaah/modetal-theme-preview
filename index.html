@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Modetal Theme Preview — Light & Dark</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@600&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page">
+    <div class="page-header">
+      <div>
+        <h1>Modetal demo theme preview</h1>
+        <p>We rendered both light and dark variants together. Using an identical UI structure so you can compare hierarchy, readability, accents, and emotional tone fast.</p>
+      </div>
+
+      <div class="toolbar">
+        <button id="showBoth">Show both</button>
+        <button id="showLight">Light only</button>
+        <button id="showDark">Dark only</button>
+      </div>
+    </div>
+
+    <div class="preview-grid" id="previewGrid">
+      <!-- LIGHT -->
+      <section class="preview-card light-wrap">
+        <div class="preview-title" style="background:#FBF8F3; color:#2B2B2B;">
+          <span>LIGHT THEME</span>
+          <span>#FBF8F3 / #FFFFFF / #C85A3A</span>
+        </div>
+
+        <div class="theme light">
+          <div class="device">
+            <header class="topbar">
+              <div class="topbar-row">
+                <div class="brand">
+                  <div class="brand-mark">
+                    <svg viewBox="0 0 24 24">
+                      <path d="M7 11c0-4 2-6 5-6s5 2 5 6-2 8-5 8-5-4-5-8Z"/>
+                      <path d="M10 14h4"/>
+                    </svg>
+                  </div>
+                  <div class="brand-copy">
+                    <h2>Modetal</h2>
+                    <p>Learn African languages</p>
+                  </div>
+                </div>
+
+                <div class="status-row">
+                  <div class="pill cowrie">
+                    <svg viewBox="0 0 24 24">
+                      <path d="M7 11c0-4 2-6 5-6s5 2 5 6-2 8-5 8-5-4-5-8Z"/>
+                      <path d="M10 14h4"/>
+                    </svg>
+                    <span>1240</span>
+                  </div>
+                  <div class="pill flame">
+                    <svg viewBox="0 0 24 24">
+                      <path d="M12 3c2 2 3 3.7 3 5.6 0 1.1-.4 2.3-1.1 3.1 2.4-.7 4.1 1.7 4.1 4.3A6 6 0 0 1 6 16.2c0-2 1-3.8 2.7-4.8-.2.5-.2.8-.2 1 0 .7.2 1.4.6 1.9C8.5 11.5 9.8 8 12 3Z"/>
+                    </svg>
+                    <span>14</span>
+                  </div>
+                </div>
+              </div>
+            </header>
+
+            <main class="content">
+              <!-- HOME SCREEN -->
+              <section class="hero">
+                <div class="hero-top">
+                  <div class="eyebrow">Daily path</div>
+                  <div class="mascot">
+                    <svg viewBox="0 0 64 64">
+                      <circle cx="32" cy="32" r="18" fill="#E6B847"/>
+                      <circle cx="26" cy="29" r="2.6" fill="#2B2B2B"/>
+                      <circle cx="38" cy="29" r="2.6" fill="#2B2B2B"/>
+                      <path d="M24 38c2.2 3.5 5.2 5 8 5s5.8-1.5 8-5" fill="none" stroke="#2B2B2B" stroke-width="2.5" stroke-linecap="round"/>
+                      <path d="M18 20c3-6 9-10 14-10 5.6 0 11.2 3.4 14 10" fill="none" stroke="#C85A3A" stroke-width="5" stroke-linecap="round"/>
+                      <path d="M15 50c3.5-5 10-8 17-8s13.5 3 17 8" fill="none" stroke="#2D5016" stroke-width="5" stroke-linecap="round"/>
+                    </svg>
+                  </div>
+                </div>
+
+                <h3>Learn with Modetal</h3>
+                <p>Light mode uses cream paper energy, white surfaces, terracotta emphasis, and gold reward accents.</p>
+
+                <div class="hero-actions">
+                  <button class="button button-primary" data-goto-tab="1">Continue lesson</button>
+                  <button class="button button-secondary">Practice</button>
+                </div>
+              </section>
+
+              <!-- PATH SCREEN 1: LESSON -->
+              <section class="lesson-view">
+                <div class="lesson-header">
+                  <h3>Greetings & Family</h3>
+                  <p class="lesson-subtitle">Learn essential Yorùbá phrases</p>
+                </div>
+
+                <div class="lesson-progress">
+                  <div class="progress-bar">
+                    <div class="progress-fill" style="width: 40%;"></div>
+                  </div>
+                  <p class="progress-text">4 of 10 phrases completed</p>
+                </div>
+
+                <div class="vocabulary-section">
+                  <h4>Essential phrases</h4>
+                  <div class="vocabulary-list">
+                    <div class="vocab-item">
+                      <div class="vocab-yoruba">Báwo ni?</div>
+                      <div class="vocab-english">How are you?</div>
+                      <div class="vocab-pronunciation">BAH-woh nee</div>
+                    </div>
+
+                    <div class="vocab-item">
+                      <div class="vocab-yoruba">Ẹ ku àrọ̀</div>
+                      <div class="vocab-english">Good morning</div>
+                      <div class="vocab-pronunciation">EH koo AH-boh</div>
+                    </div>
+
+                    <div class="vocab-item">
+                      <div class="vocab-yoruba">Ayaba</div>
+                      <div class="vocab-english">Queen/Wife</div>
+                      <div class="vocab-pronunciation">AH-yah-bah</div>
+                    </div>
+
+                    <div class="vocab-item">
+                      <div class="vocab-yoruba">Aya</div>
+                      <div class="vocab-english">Wife/Spouse</div>
+                      <div class="vocab-pronunciation">AH-yah</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="example-section">
+                  <h4>Listen & practice</h4>
+                  <div class="audio-item">
+                    <div class="audio-text">
+                      <div class="audio-title">Common greeting</div>
+                      <div class="audio-phrase">Báwo ni? Ó kúkú?</div>
+                    </div>
+                    <button class="audio-button">
+                      <svg viewBox="0 0 24 24">
+                        <path d="M5 3v18l15-9z" fill="currentColor"/>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+
+                <button class="button button-primary" style="width:100%;">Continue</button>
+              </section>
+
+              <!-- PATH SCREEN 2: PROFILE CONTENT -->
+              <section class="path-profile">
+                <div class="profile-header">
+                  <div class="profile-avatar">
+                    <svg viewBox="0 0 64 64">
+                      <circle cx="32" cy="32" r="30" fill="none" stroke="currentColor" stroke-width="2"/>
+                      <circle cx="32" cy="24" r="8" fill="currentColor"/>
+                      <path d="M16 48c0-8 7-12 16-12s16 4 16 12" fill="currentColor"/>
+                    </svg>
+                  </div>
+                  <div class="profile-info">
+                    <h3>Elvis Nwokezi</h3>
+                    <p>Learning Yorùbá</p>
+                  </div>
+                </div>
+
+                <div class="stats-grid">
+                  <div class="stat-card">
+                    <div class="stat-label">Total XP</div>
+                    <div class="stat-value">2,840</div>
+                  </div>
+                  <div class="stat-card">
+                    <div class="stat-label">Days Flame</div>
+                    <div class="stat-value">14</div>
+                  </div>
+                  <div class="stat-card">
+                    <div class="stat-label">Lessons Done</div>
+                    <div class="stat-value">32</div>
+                  </div>
+                  <div class="stat-card">
+                    <div class="stat-label">Level</div>
+                    <div class="stat-value">6</div>
+                  </div>
+                </div>
+
+                <div class="achievements-section">
+                  <h4>Recent achievements</h4>
+                  <div class="achievement-list">
+                    <div class="achievement-item">
+                      <div class="achievement-icon">🎯</div>
+                      <div class="achievement-text">
+                        <div class="achievement-title">Perfect Lesson</div>
+                        <div class="achievement-date">Today</div>
+                      </div>
+                    </div>
+                    <div class="achievement-item">
+                      <div class="achievement-icon">🔥</div>
+                      <div class="achievement-text">
+                        <div class="achievement-title">14-day Flame</div>
+                        <div class="achievement-date">Yesterday</div>
+                      </div>
+                    </div>
+                    <div class="achievement-item">
+                      <div class="achievement-icon">👑</div>
+                      <div class="achievement-text">
+                        <div class="achievement-title">Reached Level 6</div>
+                        <div class="achievement-date">2 days ago</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <!-- REWARDS SCREEN -->
+              <section class="rewards-content">
+                <div class="section-header">
+                  <h4>Your gourd</h4>
+                  <span>Earned items</span>
+                </div>
+
+                <div class="rewards-section">
+                  <div class="reward-item">
+                    <div class="reward-icon cowrie-icon">
+                      <svg viewBox="0 0 24 24">
+                        <path d="M7 11c0-4 2-6 5-6s5 2 5 6-2 8-5 8-5-4-5-8Z"/>
+                        <path d="M10 14h4"/>
+                      </svg>
+                    </div>
+                    <div class="reward-info">
+                      <h5>Cowries</h5>
+                      <p class="reward-count">342 collected</p>
+                      <p class="reward-desc">Earn one per completed lesson</p>
+                    </div>
+                  </div>
+
+                  <div class="reward-item">
+                    <div class="reward-icon flame-icon">
+                      <svg viewBox="0 0 24 24">
+                        <path d="M12 3c2 2 3 3.7 3 5.6 0 1.1-.4 2.3-1.1 3.1 2.4-.7 4.1 1.7 4.1 4.3A6 6 0 0 1 6 16.2c0-2 1-3.8 2.7-4.8-.2.5-.2.8-.2 1 0 .7.2 1.4.6 1.9C8.5 11.5 9.8 8 12 3Z"/>
+                      </svg>
+                    </div>
+                    <div class="reward-info">
+                      <h5>Flames</h5>
+                      <p class="reward-count">Current: 14 days</p>
+                      <p class="reward-desc">Learn daily to keep your flame burning</p>
+                    </div>
+                  </div>
+
+                  <div class="reward-item">
+                    <div class="reward-icon trophy-icon">
+                      <svg viewBox="0 0 24 24">
+                        <path d="M6 9c0-2 1-3 3-3h6c2 0 3 1 3 3"/>
+                        <path d="M9 6v-2a2 2 0 0 1 2-2 2 2 0 0 1 2 2v2"/>
+                        <path d="M6 9v4c0 1 .5 2 1.5 3l.5 4h8l.5-4c1-1 1.5-2 1.5-3V9"/>
+                      </svg>
+                    </div>
+                    <div class="reward-info">
+                      <h5>Milestones</h5>
+                      <p class="reward-count">6 unlocked</p>
+                      <p class="reward-desc">Complete units to earn new masks</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="market-preview">
+                  <h4>Upcoming market items</h4>
+                  <p>Spend your cowries on character customizations, themes, and more. Check back soon for new items.</p>
+                </div>
+              </section>
+
+              <!-- PROFILE SCREEN -->
+              <section class="profile-content">
+                <div class="profile-banner">
+                  <div class="profile-avatar-large">
+                    <svg viewBox="0 0 64 64">
+                      <circle cx="32" cy="32" r="30" fill="none" stroke="currentColor" stroke-width="2"/>
+                      <circle cx="32" cy="24" r="8" fill="currentColor"/>
+                      <path d="M16 48c0-8 7-12 16-12s16 4 16 12" fill="currentColor"/>
+                    </svg>
+                  </div>
+                  <h2>Elvis Nwokezi</h2>
+                  <p class="profile-bio">Learning Yorùbá • Level 6</p>
+                </div>
+
+                <div class="profile-stats-row">
+                  <div class="profile-stat">
+                    <div class="stat-big">2,840</div>
+                    <div class="stat-label">Total XP</div>
+                  </div>
+                  <div class="profile-stat">
+                    <div class="stat-big">32</div>
+                    <div class="stat-label">Lessons</div>
+                  </div>
+                  <div class="profile-stat">
+                    <div class="stat-big">14</div>
+                    <div class="stat-label">Day Streak</div>
+                  </div>
+                </div>
+
+                <div class="profile-section">
+                  <h4>Recent achievements</h4>
+                  <div class="achievement-list">
+                    <div class="achievement-item">
+                      <div class="achievement-icon">🎯</div>
+                      <div class="achievement-text">
+                        <div class="achievement-title">Perfect Lesson</div>
+                        <div class="achievement-date">Today</div>
+                      </div>
+                    </div>
+                    <div class="achievement-item">
+                      <div class="achievement-icon">🔥</div>
+                      <div class="achievement-text">
+                        <div class="achievement-title">14-day Flame</div>
+                        <div class="achievement-date">Yesterday</div>
+                      </div>
+                    </div>
+                    <div class="achievement-item">
+                      <div class="achievement-icon">👑</div>
+                      <div class="achievement-text">
+                        <div class="achievement-title">Reached Level 6</div>
+                        <div class="achievement-date">2 days ago</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="profile-section">
+                  <h4>Learning stats</h4>
+                  <div class="learning-stats">
+                    <div class="learning-stat-item">
+                      <span>Average per day</span>
+                      <span class="learning-stat-value">12 min</span>
+                    </div>
+                    <div class="learning-stat-item">
+                      <span>Favorite lesson</span>
+                      <span class="learning-stat-value">Conversations</span>
+                    </div>
+                    <div class="learning-stat-item">
+                      <span>Accuracy rate</span>
+                      <span class="learning-stat-value">87%</span>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </main>
+
+            <nav class="bottom-nav">
+              <div class="nav-item active">
+                <div class="icon-wrap">
+                  <svg viewBox="0 0 24 24">
+                    <path d="M3 10.5 12 3l9 7.5"/>
+                    <path d="M5 9.5V21h14V9.5"/>
+                  </svg>
+                </div>
+                <div>Home</div>
+              </div>
+
+              <div class="nav-item">
+                <div class="icon-wrap">
+                  <svg viewBox="0 0 24 24">
+                    <path d="M4 19c5-8 11-10 16-14"/>
+                    <path d="M5 6h4v4"/>
+                    <path d="M15 18h4v-4"/>
+                  </svg>
+                </div>
+                <div>Path</div>
+              </div>
+
+              <div class="nav-item">
+                <div class="icon-wrap">
+                  <svg viewBox="0 0 24 24">
+                    <path d="M8 21h8"/>
+                    <path d="M12 17v4"/>
+                    <path d="M7 4h10"/>
+                    <path d="M17 4v3a5 5 0 0 1-10 0V4"/>
+                  </svg>
+                </div>
+                <div>Rewards</div>
+              </div>
+
+              <div class="nav-item">
+                <div class="icon-wrap">
+                  <svg viewBox="0 0 24 24">
+                    <path d="M20 21a8 8 0 1 0-16 0"/>
+                    <circle cx="12" cy="7" r="4"/>
+                  </svg>
+                </div>
+                <div>Profile</div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </section>
+
+      <!-- DARK -->
+      <section class="preview-card dark-wrap">
+        <div class="preview-title" style="background:#1A1A1A; color:#F5F5F5;">
+          <span>DARK THEME</span>
+          <span>#1A1A1A / #2A2A2A / #E87856</span>
+        </div>
+
+        <div class="theme dark">
+          <div class="device">
+            <header class="topbar">
+              <div class="topbar-row">
+                <div class="brand">
+                  <div class="brand-mark">
+                    <svg viewBox="0 0 24 24">
+                      <path d="M7 11c0-4 2-6 5-6s5 2 5 6-2 8-5 8-5-4-5-8Z"/>
+                      <path d="M10 14h4"/>
+                    </svg>
+                  </div>
+                  <div class="brand-copy">
+                    <h2>Modetal</h2>
+                    <p>Learn African languages</p>
+                  </div>
+                </div>
+
+                <div class="status-row">
+                  <div class="pill cowrie">
+                    <svg viewBox="0 0 24 24">
+                      <path d="M7 11c0-4 2-6 5-6s5 2 5 6-2 8-5 8-5-4-5-8Z"/>
+                      <path d="M10 14h4"/>
+                    </svg>
+                    <span>1240</span>
+                  </div>
+                  <div class="pill flame">
+                    <svg viewBox="0 0 24 24">
+                      <path d="M12 3c2 2 3 3.7 3 5.6 0 1.1-.4 2.3-1.1 3.1 2.4-.7 4.1 1.7 4.1 4.3A6 6 0 0 1 6 16.2c0-2 1-3.8 2.7-4.8-.2.5-.2.8-.2 1 0 .7.2 1.4.6 1.9C8.5 11.5 9.8 8 12 3Z"/>
+                    </svg>
+                    <span>14</span>
+                  </div>
+                </div>
+              </div>
+            </header>
+
+            <main class="content">
+              <!-- HOME SCREEN -->
+              <section class="hero">
+                <div class="hero-top">
+                  <div class="eyebrow">Daily path</div>
+                  <div class="mascot">
+                    <svg viewBox="0 0 64 64">
+                      <circle cx="32" cy="32" r="18" fill="#F4C860"/>
+                      <circle cx="26" cy="29" r="2.6" fill="#1A1A1A"/>
+                      <circle cx="38" cy="29" r="2.6" fill="#1A1A1A"/>
+                      <path d="M24 38c2.2 3.5 5.2 5 8 5s5.8-1.5 8-5" fill="none" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round"/>
+                      <path d="M18 20c3-6 9-10 14-10 5.6 0 11.2 3.4 14 10" fill="none" stroke="#E87856" stroke-width="5" stroke-linecap="round"/>
+                      <path d="M15 50c3.5-5 10-8 17-8s13.5 3 17 8" fill="none" stroke="#4A8C3A" stroke-width="5" stroke-linecap="round"/>
+                    </svg>
+                  </div>
+                </div>
+
+                <h3>Learn with Modetal</h3>
+                <p>Dark mode uses brighter terracotta and gold so rewards and actions stay legible on charcoal.</p>
+
+                <div class="hero-actions">
+                  <button class="button button-primary" data-goto-tab="1">Continue lesson</button>
+                  <button class="button button-secondary">Practice</button>
+                </div>
+              </section>
+
+              <!-- PATH SCREEN 1: LESSON -->
+              <section class="lesson-view">
+                <div class="lesson-header">
+                  <h3>Greetings & Family</h3>
+                  <p class="lesson-subtitle">Learn essential Yorùbá phrases</p>
+                </div>
+
+                <div class="lesson-progress">
+                  <div class="progress-bar">
+                    <div class="progress-fill" style="width: 40%;"></div>
+                  </div>
+                  <p class="progress-text">4 of 10 phrases completed</p>
+                </div>
+
+                <div class="vocabulary-section">
+                  <h4>Essential phrases</h4>
+                  <div class="vocabulary-list">
+                    <div class="vocab-item">
+                      <div class="vocab-yoruba">Báwo ni?</div>
+                      <div class="vocab-english">How are you?</div>
+                      <div class="vocab-pronunciation">BAH-woh nee</div>
+                    </div>
+
+                    <div class="vocab-item">
+                      <div class="vocab-yoruba">Ẹ ku àrọ̀</div>
+                      <div class="vocab-english">Good morning</div>
+                      <div class="vocab-pronunciation">EH koo AH-boh</div>
+                    </div>
+
+                    <div class="vocab-item">
+                      <div class="vocab-yoruba">Ayaba</div>
+                      <div class="vocab-english">Queen/Wife</div>
+                      <div class="vocab-pronunciation">AH-yah-bah</div>
+                    </div>
+
+                    <div class="vocab-item">
+                      <div class="vocab-yoruba">Aya</div>
+                      <div class="vocab-english">Wife/Spouse</div>
+                      <div class="vocab-pronunciation">AH-yah</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="example-section">
+                  <h4>Listen & practice</h4>
+                  <div class="audio-item">
+                    <div class="audio-text">
+                      <div class="audio-title">Common greeting</div>
+                      <div class="audio-phrase">Báwo ni? Ó kúkú?</div>
+                    </div>
+                    <button class="audio-button">
+                      <svg viewBox="0 0 24 24">
+                        <path d="M5 3v18l15-9z" fill="currentColor"/>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+
+                <button class="button button-primary" style="width:100%;">Continue</button>
+              </section>
+
+              <!-- PATH SCREEN 2: PROFILE CONTENT -->
+              <section class="path-profile">
+                <div class="profile-header">
+                  <div class="profile-avatar">
+                    <svg viewBox="0 0 64 64">
+                      <circle cx="32" cy="32" r="30" fill="none" stroke="currentColor" stroke-width="2"/>
+                      <circle cx="32" cy="24" r="8" fill="currentColor"/>
+                      <path d="M16 48c0-8 7-12 16-12s16 4 16 12" fill="currentColor"/>
+                    </svg>
+                  </div>
+                  <div class="profile-info">
+                    <h3>Elvis Nwokezi</h3>
+                    <p>Learning Yorùbá</p>
+                  </div>
+                </div>
+
+                <div class="stats-grid">
+                  <div class="stat-card">
+                    <div class="stat-label">Total XP</div>
+                    <div class="stat-value">2,840</div>
+                  </div>
+                  <div class="stat-card">
+                    <div class="stat-label">Days Flame</div>
+                    <div class="stat-value">14</div>
+                  </div>
+                  <div class="stat-card">
+                    <div class="stat-label">Lessons Done</div>
+                    <div class="stat-value">32</div>
+                  </div>
+                  <div class="stat-card">
+                    <div class="stat-label">Level</div>
+                    <div class="stat-value">6</div>
+                  </div>
+                </div>
+
+                <div class="achievements-section">
+                  <h4>Recent achievements</h4>
+                  <div class="achievement-list">
+                    <div class="achievement-item">
+                      <div class="achievement-icon">🎯</div>
+                      <div class="achievement-text">
+                        <div class="achievement-title">Perfect Lesson</div>
+                        <div class="achievement-date">Today</div>
+                      </div>
+                    </div>
+                    <div class="achievement-item">
+                      <div class="achievement-icon">🔥</div>
+                      <div class="achievement-text">
+                        <div class="achievement-title">14-day Flame</div>
+                        <div class="achievement-date">Yesterday</div>
+                      </div>
+                    </div>
+                    <div class="achievement-item">
+                      <div class="achievement-icon">👑</div>
+                      <div class="achievement-text">
+                        <div class="achievement-title">Reached Level 6</div>
+                        <div class="achievement-date">2 days ago</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <!-- REWARDS SCREEN -->
+              <section class="rewards-content">
+                <div class="section-header">
+                  <h4>Your gourd</h4>
+                  <span>Earned items</span>
+                </div>
+
+                <div class="rewards-section">
+                  <div class="reward-item">
+                    <div class="reward-icon cowrie-icon">
+                      <svg viewBox="0 0 24 24">
+                        <path d="M7 11c0-4 2-6 5-6s5 2 5 6-2 8-5 8-5-4-5-8Z"/>
+                        <path d="M10 14h4"/>
+                      </svg>
+                    </div>
+                    <div class="reward-info">
+                      <h5>Cowries</h5>
+                      <p class="reward-count">342 collected</p>
+                      <p class="reward-desc">Earn one per completed lesson</p>
+                    </div>
+                  </div>
+
+                  <div class="reward-item">
+                    <div class="reward-icon flame-icon">
+                      <svg viewBox="0 0 24 24">
+                        <path d="M12 3c2 2 3 3.7 3 5.6 0 1.1-.4 2.3-1.1 3.1 2.4-.7 4.1 1.7 4.1 4.3A6 6 0 0 1 6 16.2c0-2 1-3.8 2.7-4.8-.2.5-.2.8-.2 1 0 .7.2 1.4.6 1.9C8.5 11.5 9.8 8 12 3Z"/>
+                      </svg>
+                    </div>
+                    <div class="reward-info">
+                      <h5>Flames</h5>
+                      <p class="reward-count">Current: 14 days</p>
+                      <p class="reward-desc">Learn daily to keep your flame burning</p>
+                    </div>
+                  </div>
+
+                  <div class="reward-item">
+                    <div class="reward-icon trophy-icon">
+                      <svg viewBox="0 0 24 24">
+                        <path d="M6 9c0-2 1-3 3-3h6c2 0 3 1 3 3"/>
+                        <path d="M9 6v-2a2 2 0 0 1 2-2 2 2 0 0 1 2 2v2"/>
+                        <path d="M6 9v4c0 1 .5 2 1.5 3l.5 4h8l.5-4c1-1 1.5-2 1.5-3V9"/>
+                      </svg>
+                    </div>
+                    <div class="reward-info">
+                      <h5>Milestones</h5>
+                      <p class="reward-count">6 unlocked</p>
+                      <p class="reward-desc">Complete units to earn new masks</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="market-preview">
+                  <h4>Upcoming market items</h4>
+                  <p>Spend your cowries on character customizations, themes, and more. Check back soon for new items.</p>
+                </div>
+              </section>
+
+              <!-- PROFILE SCREEN -->
+              <section class="profile-content">
+                <div class="profile-banner">
+                  <div class="profile-avatar-large">
+                    <svg viewBox="0 0 64 64">
+                      <circle cx="32" cy="32" r="30" fill="none" stroke="currentColor" stroke-width="2"/>
+                      <circle cx="32" cy="24" r="8" fill="currentColor"/>
+                      <path d="M16 48c0-8 7-12 16-12s16 4 16 12" fill="currentColor"/>
+                    </svg>
+                  </div>
+                  <h2>Elvis Nwokezi</h2>
+                  <p class="profile-bio">Learning Yorùbá • Level 6</p>
+                </div>
+
+                <div class="profile-stats-row">
+                  <div class="profile-stat">
+                    <div class="stat-big">2,840</div>
+                    <div class="stat-label">Total XP</div>
+                  </div>
+                  <div class="profile-stat">
+                    <div class="stat-big">32</div>
+                    <div class="stat-label">Lessons</div>
+                  </div>
+                  <div class="profile-stat">
+                    <div class="stat-big">14</div>
+                    <div class="stat-label">Day Flame</div>
+                  </div>
+                </div>
+
+                <div class="profile-section">
+                  <h4>Recent achievements</h4>
+                  <div class="achievement-list">
+                    <div class="achievement-item">
+                      <div class="achievement-icon">🎯</div>
+                      <div class="achievement-text">
+                        <div class="achievement-title">Perfect Lesson</div>
+                        <div class="achievement-date">Today</div>
+                      </div>
+                    </div>
+                    <div class="achievement-item">
+                      <div class="achievement-icon">🔥</div>
+                      <div class="achievement-text">
+                        <div class="achievement-title">14-day Flame</div>
+                        <div class="achievement-date">Yesterday</div>
+                      </div>
+                    </div>
+                    <div class="achievement-item">
+                      <div class="achievement-icon">👑</div>
+                      <div class="achievement-text">
+                        <div class="achievement-title">Reached Level 6</div>
+                        <div class="achievement-date">2 days ago</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="profile-section">
+                  <h4>Learning stats</h4>
+                  <div class="learning-stats">
+                    <div class="learning-stat-item">
+                      <span>Average per day</span>
+                      <span class="learning-stat-value">12 min</span>
+                    </div>
+                    <div class="learning-stat-item">
+                      <span>Favorite lesson</span>
+                      <span class="learning-stat-value">Conversations</span>
+                    </div>
+                    <div class="learning-stat-item">
+                      <span>Accuracy rate</span>
+                      <span class="learning-stat-value">87%</span>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </main>
+
+            <nav class="bottom-nav">
+              <div class="nav-item active">
+                <div class="icon-wrap">
+                  <svg viewBox="0 0 24 24">
+                    <path d="M3 10.5 12 3l9 7.5"/>
+                    <path d="M5 9.5V21h14V9.5"/>
+                  </svg>
+                </div>
+                <div>Home</div>
+              </div>
+
+              <div class="nav-item">
+                <div class="icon-wrap">
+                  <svg viewBox="0 0 24 24">
+                    <path d="M4 19c5-8 11-10 16-14"/>
+                    <path d="M5 6h4v4"/>
+                    <path d="M15 18h4v-4"/>
+                  </svg>
+                </div>
+                <div>Path</div>
+              </div>
+
+              <div class="nav-item">
+                <div class="icon-wrap">
+                  <svg viewBox="0 0 24 24">
+                    <path d="M8 21h8"/>
+                    <path d="M12 17v4"/>
+                    <path d="M7 4h10"/>
+                    <path d="M17 4v3a5 5 0 0 1-10 0V4"/>
+                  </svg>
+                </div>
+                <div>Rewards</div>
+              </div>
+
+              <div class="nav-item">
+                <div class="icon-wrap">
+                  <svg viewBox="0 0 24 24">
+                    <path d="M20 21a8 8 0 1 0-16 0"/>
+                    <circle cx="12" cy="7" r="4"/>
+                  </svg>
+                </div>
+                <div>Profile</div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
